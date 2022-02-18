@@ -50,10 +50,10 @@ $("body").append(
     '<div id="tabs">' +
     ' <ul class="clearfix has-wechat">' +
     '<li class="active">快捷登录</li>' +
-    ' <li class="has-wechat-li active">账号登录</li>' +
+    ' <li class="has-wechat-li">账号登录</li>' +
     '</ul>' +
     '</div>' +
-    '<div class="accountLogin loginShow info-hide info-show ">' +
+    '<div class="accountLogin loginShow info-hide ">' +
     '<div class="accLoginShow">' +
     ' <i class="phoneIcon"></i>' +
     '<input type="text" placeholder="请输入账号/手机号/邮箱"  id="phoneEmailAcc">' +
@@ -520,23 +520,23 @@ function loginHref() {
     $(".businOcrResult").data('href', './proOcrResult.html?url=busin'); //营业执照
 }
 //登录方式切换
-// $("#login-mode #tabs ul li").on('click', function () {
-//     $("#login-mode #tabs ul li").removeClass('active');
-//     $(this).addClass('active');
-//     var index = $("#login-mode #tabs ul li").index(this);
-//     if (index == 0) {
-//         $(".quickLogin").hasClass("info-show");
-//         $(".quickLogin").addClass("info-show");
-//     } else {
-//         $(".quickLogin").removeClass("info-show");
-//     }
-//     if (index == 1) {
-//         $(".accountLogin").hasClass("info-show");
-//         $(".accountLogin").addClass("info-show");
-//     } else {
-//         $(".accountLogin").removeClass("info-show");
-//     }
-// })
+$("#login-mode #tabs ul li").on('click', function () {
+    $("#login-mode #tabs ul li").removeClass('active');
+    $(this).addClass('active');
+    var index = $("#login-mode #tabs ul li").index(this);
+    if (index == 0) {
+        $(".quickLogin").hasClass("info-show");
+        $(".quickLogin").addClass("info-show");
+    } else {
+        $(".quickLogin").removeClass("info-show");
+    }
+    if (index == 1) {
+        $(".accountLogin").hasClass("info-show");
+        $(".accountLogin").addClass("info-show");
+    } else {
+        $(".accountLogin").removeClass("info-show");
+    }
+})
 // ------------------------------------------------//
 
 function valid(id) {

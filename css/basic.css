@@ -170,7 +170,7 @@ header .lists-wrapper .personal-center {
 }
 
 #chongBtn {
-    right:96px;
+    right: 96px;
     top: 15px;
     width: 86px;
     height: 32px;
@@ -183,10 +183,12 @@ header .lists-wrapper .personal-center {
 #chongBtn a {
     color: #fff
 }
+
 /* 隐藏掉api接口 */
-.api-inter { 
+.api-inter {
     display: none;
 }
+
 header .lists-wrapper .personal-center {
     top: 18px;
     right: 211px;
@@ -284,10 +286,12 @@ header .lists-wrapper .personal-center ul li a {
 .footer .footer-down div {
     line-height: 25px
 }
+
 .footer .footer-down div span {
-     font-size: 12px;
+    font-size: 12px;
     color: #939599;
 }
+
 .footer-up .footer-box p {
     color: #dddcdc;
     font-size: 16px;
@@ -360,9 +364,11 @@ progress {
     top: 50%;
     transform: translate(-17.5px, 45.5px)
 }
+
 .textRecord-wrapper .history-record {
     position: relative;
 }
+
 .textRecord-wrapper .spinner {
     width: 25px;
     height: 25px;
@@ -371,6 +377,7 @@ progress {
     top: 50%;
     transform: translate(-17.5px, 45.5px)
 }
+
 .container1>div,
 .container2>div,
 .container3>div {
@@ -477,23 +484,27 @@ progress {
 }
 
 @-webkit-keyframes bouncedelay {
+
     0%,
     100%,
     80% {
         -webkit-transform: scale(0)
     }
+
     40% {
         -webkit-transform: scale(1)
     }
 }
 
 @keyframes bouncedelay {
+
     0%,
     100%,
     80% {
         transform: scale(0);
         -webkit-transform: scale(0)
     }
+
     40% {
         transform: scale(1);
         -webkit-transform: scale(1)
@@ -542,37 +553,46 @@ progress {
     line-height: 51px;
     float: left;
     color: #fefefe;
-    border-bottom: 1px solid rgba(255,255,255,.21);
+    border-bottom: 1px solid rgba(255, 255, 255, .21);
 }
- #login-mode #tabs ul.has-wechat li {
-    width: 100%;
+
+#login-mode #tabs ul.has-wechat li {
+    width: 50%;
     height: 51px;
     text-align: center;
     line-height: 51px;
     float: left;
     color: #fefefe;
     border-bottom: 1px solid rgba(255, 255, 255, .21)
-} 
- #login-mode #tabs ul.has-wechat li.active {
+}
+
+#login-mode #tabs ul.has-wechat li.active {
     border-bottom: 3px solid #3a7cff;
     color: #3a7cff;
-} 
-#login-mode .quickLogin ,#login-mode .accountLogin{
+}
+
+#login-mode .quickLogin,
+#login-mode .accountLogin {
     padding: 24px 17px 23px 18px;
     position: relative;
 }
 
-#login-mode .quickLogin .quickLshow ,#login-mode .accountLogin .accLoginShow{
+#login-mode .quickLogin .quickLshow,
+#login-mode .accountLogin .accLoginShow {
     width: 284px;
     height: 242px;
     background-color: #fff;
     border-radius: 5px;
     padding: 52px 24px 37px 23px
 }
+
 #login-mode .accountLogin .accLoginShow {
     padding: 40px 24px 37px 23px
 }
-#login-mode .quickLogin .quickLshow input ,#login-mode .accountLogin .accLoginShow input[type="text"],.accLoginShow input[type="password"]{
+
+#login-mode .quickLogin .quickLshow input,
+#login-mode .accountLogin .accLoginShow input[type="text"],
+.accLoginShow input[type="password"] {
     width: 239px;
     height: 30px;
     line-height: 30px;
@@ -581,23 +601,28 @@ progress {
     text-indent: 2em;
 }
 
-#login-mode .quickLogin .quickLshow i,#login-mode .accountLogin .accLoginShow i {
+#login-mode .quickLogin .quickLshow i,
+#login-mode .accountLogin .accLoginShow i {
     width: 18px;
     height: 19px;
     background-repeat: no-repeat;
     position: absolute;
     margin-top: 5px
 }
+
 #login-mode .accountLogin .accLoginShow i.phoneIcon {
     background-image: url(../images/phoneIco.png)
 }
+
 #login-mode .accountLogin .accLoginShow i.tyan {
     background-image: url(../images/accPWD.png)
 }
-#login-mode .accountLogin .accLoginShow .forgetPwd{
+
+#login-mode .accountLogin .accLoginShow .forgetPwd {
     color: #3a7cff;
     cursor: pointer;
 }
+
 #login-mode .quickLogin .quickLshow i.phoneIcon {
     background-image: url(../images/phoneIco.png)
 }
@@ -606,7 +631,8 @@ progress {
     background-image: url(../images/tyan.png)
 }
 
-#login-mode .quickLogin .quickLshow p,#login-mode .accountLogin .accLoginShow p {
+#login-mode .quickLogin .quickLshow p,
+#login-mode .accountLogin .accLoginShow p {
     color: red;
     position: absolute;
     margin-left: 5px;
@@ -614,7 +640,8 @@ progress {
     display: none
 }
 
-#login-mode .quickLogin .quickLshow p.warnShow,#login-mode .accountLogin .accLoginShow p.warnShow    {
+#login-mode .quickLogin .quickLshow p.warnShow,
+#login-mode .accountLogin .accLoginShow p.warnShow {
     display: block
 }
 
@@ -638,7 +665,8 @@ progress {
     display: none
 }
 
-#login-mode .quickLogin .quickLshow #loginBtn ,#login-mode .accountLogin .accLoginShow #accLoginBtn {
+#login-mode .quickLogin .quickLshow #loginBtn,
+#login-mode .accountLogin .accLoginShow #accLoginBtn {
     width: 239px;
     height: 40px;
     background-color: #3a7cff;
@@ -720,7 +748,8 @@ progress::-webkit-progress-value {
 progress::-webkit-progress-inner-element {
     border-radius: 4px
 }
-iframe{
+
+iframe {
     width: 202px;
     height: 202px;
 }
@@ -731,77 +760,135 @@ iframe{
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-200px,-10px);
+    transform: translate(-200px, -10px);
     padding: 30px 20px 30px;
     color: #fff;
     z-index: 999;
     text-align: center;
-    border:1px solid darkblue;
+    border: 1px solid darkblue;
     display: none;
 }
+
 #JumpPrompt .kuimg {
     width: 50px;
     height: 50px;
-    margin:0px auto 20px;
+    margin: 0px auto 20px;
 }
+
 #JumpPrompt .kuimg img {
     width: 100%;
     height: 100%;
 }
+
 #immedEnter {
     color: #00a3ee;
     text-decoration: underline;
 }
+
 #JumpPrompt p {
     margin-top: 20px;
     margin-bottom: 8px
 }
+
 /* 第一个充值套餐 */
-#tab1 { 
+#tab1 {
     display: block
 }
 
 /* 周年庆动画 */
-.ss{
-    background-image: -webkit-linear-gradient(left, #e417fc , #4a88fd  25%,#4348ff 50%, #f5f29f 75%, #bf39f7 100%);
+.ss {
+    background-image: -webkit-linear-gradient(left, #e417fc, #4a88fd 25%, #4348ff 50%, #f5f29f 75%, #bf39f7 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-background-size: 200% 100%;
     -webkit-animation: masked-animation 2s infinite linear;
     font-weight: 700;
-  }
+}
+
 @-webkit-keyframes masked-animation {
-     0%{ background-position: 0 0;}
-     100% { background-position: -100% 0;}
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
 }
 
 .dotting {
     display: inline-block;
     min-width: 2px;
     min-height: 2px;
-    box-shadow: 2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor, 22px 0 currentColor ,27px 0 currentColor; 
+    box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor, 22px 0 currentColor, 27px 0 currentColor;
     -webkit-animation: dot 2s infinite step-start both;
     animation: dot 1s infinite step-start both;
 }
-.dotting:before { content: '...'; } /* IE8 */
-.dotting::before { content: ''; }
-:root .dotting { margin-right: 8px; } /* IE9+,FF,CH,OP,SF */
+
+.dotting:before {
+    content: '...';
+}
+
+/* IE8 */
+.dotting::before {
+    content: '';
+}
+
+:root .dotting {
+    margin-right: 8px;
+}
+
+/* IE9+,FF,CH,OP,SF */
 
 @-webkit-keyframes dot {
-    15% {box-shadow:  2px 0 currentColor}
-    30% { box-shadow:  2px 0 currentColor, 7px 0 currentColor; }
-    45% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor; }
-    60% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor;}
-    75% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor, 22px 0 currentColor;}
-    90% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor, 22px 0 currentColor, 27px 0 currentColor; }
+    15% {
+        box-shadow: 2px 0 currentColor
+    }
+
+    30% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor;
+    }
+
+    45% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor;
+    }
+
+    60% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor;
+    }
+
+    75% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor, 22px 0 currentColor;
+    }
+
+    90% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor, 22px 0 currentColor, 27px 0 currentColor;
+    }
 }
+
 @keyframes dot {
-    15% {box-shadow:  2px 0 currentColor}
-    30% { box-shadow:  2px 0 currentColor, 7px 0 currentColor; }
-    45% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor; }
-    60% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor;}
-    75% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor, 22px 0 currentColor;}
-    90% { box-shadow:  2px 0 currentColor, 7px 0 currentColor,12px 0 currentColor,17px 0 currentColor, 22px 0 currentColor, 27px 0 currentColor; }
+    15% {
+        box-shadow: 2px 0 currentColor
+    }
+
+    30% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor;
+    }
+
+    45% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor;
+    }
+
+    60% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor;
+    }
+
+    75% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor, 22px 0 currentColor;
+    }
+
+    90% {
+        box-shadow: 2px 0 currentColor, 7px 0 currentColor, 12px 0 currentColor, 17px 0 currentColor, 22px 0 currentColor, 27px 0 currentColor;
+    }
 }
 
 /* 客服热线 */
@@ -809,84 +896,93 @@ iframe{
     width: 76px;
     height: 76px;
     position: fixed;
-    bottom:285px;
-    right:10px;
+    bottom: 285px;
+    right: 10px;
     cursor: pointer;
     background: url(../images/mess1.png) no-repeat
 }
+
 .custOnline .custOnlineTips {
     width: 181px;
     height: 81px;
     position: fixed;
-    bottom:265px;
-    right:72px;
+    bottom: 265px;
+    right: 72px;
     cursor: pointer;
     padding: 16px 30px;
     text-align: left;
     background: url(../images/custOnlineTips.png) no-repeat
 }
+
 .custOnline .custOnlineTips p {
     line-height: 22px;
     color: #666
 }
+
 /*客服icon */
 #qqIcon {
     width: 76px;
     height: 76px;
     position: fixed;
-    bottom:200px;
-    right:10px;
+    bottom: 200px;
+    right: 10px;
     cursor: pointer;
     background: url(../images/qqFIxed.png) no-repeat
 }
 
 
 /* 公用弹窗样式 */
-.basicSet{
+.basicSet {
     width: 480px;
-	background-color: #ffffff;
-	box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     padding: 40px 20px;
     position: fixed;
-    top:130px;
+    top: 130px;
     left: 50%;
     transform: translate(-240px);
     z-index: 9999;
     text-align: center;
 }
+
 .basicSet .basicSetClose {
     position: absolute;
     right: 20px;
-    top:20px;
+    top: 20px;
 }
-.basicSet  h2 {
+
+.basicSet h2 {
     color: #333;
     font-size: 18px;
     font-weight: 400
 }
-.basicSet form{
+
+.basicSet form {
     width: 357px;
     margin: 0 auto;
 }
-.basicSet form>input{
+
+.basicSet form>input {
     width: 357px;
-	height: 40px;
-	border-radius: 4px;
+    height: 40px;
+    border-radius: 4px;
     border: solid 1px #e5e5e5;
     margin-top: 30px;
     text-indent: 1em;
     position: relative;
 }
-.basicSet form>input[type="button"]{
+
+.basicSet form>input[type="button"] {
     background-color: #4680ff;
     color: #fff;
     cursor: pointer;
     margin-top: 40px
 }
+
 .basicSet form p {
     position: absolute;
-    top:132px;
+    top: 132px;
     left: 68px;
     text-align: left;
     color: red;
@@ -894,18 +990,24 @@ iframe{
     margin-top: 5px;
     display: none;
 }
-.basicSet form p.warnShow{
+
+.basicSet form p.warnShow {
     display: block;
 }
+
 .basicSet input::-webkit-input-placeholder {
-	color: #c6c6c6;
+    color: #c6c6c6;
 }
+
 /* 新域名的忘记密码 */
 
-.retrievePwd .emailCode,.accBindMobile .mobileCode{
+.retrievePwd .emailCode,
+.accBindMobile .mobileCode {
     width: 210px;
 }
-.retrievePwd .getEmail,.accBindMobile .accBindMobileCode{
+
+.retrievePwd .getEmail,
+.accBindMobile .accBindMobileCode {
     width: 120px;
     height: 40px;
     margin-top: 30px;
@@ -914,28 +1016,33 @@ iframe{
     background-color: #4680ff;
     position: relative;
 }
-.retrievePwd .getEmail input, .accBindMobile .accBindMobileCode input {
+
+.retrievePwd .getEmail input,
+.accBindMobile .accBindMobileCode input {
     width: 120px;
     text-align: center;
     color: #fff;
     background-color: #4680ff;
     cursor: pointer;
 }
-.getEmailCodeTime,.getMoblieCodeTime{
+
+.getEmailCodeTime,
+.getMoblieCodeTime {
     position: absolute;
-    right:0;
-    top:10px;
+    right: 0;
+    top: 10px;
     display: none;
 }
+
 /* 全屏遮罩层 */
 
-.divBG{
-    background: rgba(0,0,0,0.5); 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    width: 100%; 
-    height: 100%; 
-    z-index: 9998; 
+.divBG {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
     display: none;
 }
