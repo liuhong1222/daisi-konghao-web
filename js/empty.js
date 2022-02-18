@@ -381,7 +381,13 @@ function doneTick() {
     $("#second").html(second);
     if (second <= 0) {
       clearInterval(timer1);
-      window.location.href = './textRecord.html';
+      // 检测完成，弹出是否离开此页弹窗
+      var r=confirm("是否离开此页面？");
+      if (r==true){
+        window.location.href = './textRecord.html';
+      } else{
+        $(".close-dialog").show();  //显示关闭按钮
+      }
     }
   }, 1000);
 }
