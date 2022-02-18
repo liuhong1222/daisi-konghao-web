@@ -49,11 +49,11 @@ $("body").append(
     '<div id="login-mode" style="display:none">' +
     '<div id="tabs">' +
     ' <ul class="clearfix has-wechat">' +
-    '<li class="active">快捷登录</li>' +
-    ' <li class="has-wechat-li">账号登录</li>' +
+    ' <li class="active">账号登录</li>' +
+    '<li class="has-wechat-li">快捷登录</li>' +
     '</ul>' +
     '</div>' +
-    '<div class="accountLogin loginShow info-hide ">' +
+    '<div class="accountLogin loginShow info-hide info-show">' +
     '<div class="accLoginShow">' +
     ' <i class="phoneIcon"></i>' +
     '<input type="text" placeholder="请输入账号/手机号/邮箱"  id="phoneEmailAcc">' +
@@ -67,7 +67,7 @@ $("body").append(
     ' <div id="accLoginBtn">登 &nbsp; 录</div>' +
     '</div>' +
     ' </div>' +
-    '<div class="quickLogin loginShow  info-hide info-show">' +
+    '<div class="quickLogin loginShow  info-hide ">' +
     '<div class="quickLshow">' +
     ' <i class="phoneIcon"></i>' +
     '<input type="text" placeholder="请输入手机号码" name="phone" class="phone" id="account">' +
@@ -524,13 +524,13 @@ $("#login-mode #tabs ul li").on('click', function () {
     $("#login-mode #tabs ul li").removeClass('active');
     $(this).addClass('active');
     var index = $("#login-mode #tabs ul li").index(this);
-    if (index == 0) {
+    if (index == 1) {
         $(".quickLogin").hasClass("info-show");
         $(".quickLogin").addClass("info-show");
     } else {
         $(".quickLogin").removeClass("info-show");
     }
-    if (index == 1) {
+    if (index == 0) {
         $(".accountLogin").hasClass("info-show");
         $(".accountLogin").addClass("info-show");
     } else {
