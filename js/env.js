@@ -1,8 +1,10 @@
 
 // var url = 'http://172.16.20.32:8765/web';  //地址  
 // var downUrl = 'http://172.16.20.33:9191/';  //测试  
- var url = 'http://0904.cn/web';
- var downUrl = 'http://0904.cn:8180/';
+//  var url = 'http://0904.cn/web';
+//  var downUrl = 'http://0904.cn:8180/';
+var url = 'http://izcsj.com/web'; // 请求后端的接口域名替换0904
+var downUrl = 'http://izcsj.com:8180/'; // 请求后端的接口域名替换0904
 var token, tel;
 var timer;
 var timer1 = null;
